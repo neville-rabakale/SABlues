@@ -1,0 +1,60 @@
+[
+  {
+    "id": "0",
+    "group": "C-litter",
+    "birthDate": "5 February 2012",
+    "name": "Amber",
+    "birthName": "",
+    "img": "/data/img/Clitter/Amber.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "1",
+    "group": "C-litter",
+    "birthDate": "5 February 2012",
+    "name": "Charlie",
+    "birthName": "",
+    "img": "/data/img/Clitter/Charlie.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "2",
+    "group": "C-litter",
+    "birthDate": "5 February 2012",
+    "name": "Elsa",
+    "birthName": "",
+    "img": "/data/img/Clitter/Elsa.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "3",
+    "group": "C-litter",
+    "birthDate": "5 February 2012",
+    "name": "Frank",
+    "birthName": "",
+    "img": "/data/img/Clitter/Frank.jpg",
+    "description": ""
+  },
+  {
+    "id": "4",
+    "group": "C-litter",
+    "birthDate": "5 February 2012",
+    "name": "Puff",
+    "birthName": "",
+    "img": "/data/img/Clitter/Puff.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "5",
+    "group": "C-litter",
+    "birthDate": "5 February 2012",
+    "name": "Tippen",
+    "birthName": "",
+    "img": "/data/img/Clitter/Tippen.jpg",
+    "description": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "0",
+    "heritage": "Dam: Elvira, Ashcroft Lucky Amrican Dream & Sire: Plexus, SUCH Toolbox The Bachelor",
+    "birthDate": "30 April 2008",
+    "LitterName": "S-litter",
+    "img": "/data/img/S-litter.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "1",
+    "heritage": "Dam: Ronja & Sire: Oliver",
+    "birthDate": "23 December 2008",
+    "LitterName": "ABBA-litter",
+    "img": "/data/img/ABBA-litter.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "2",
+    "heritage": "Dam: Elvira, Ashcroft Lucky Amrican Dream & Sire: Rasmus, NORD&FIN",
+    "birthDate": "4 December 2009",
+    "LitterName": "B-litter",
+    "img": "/data/img/B-litter.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "3",
+    "heritage": "Dam: Elvira, Ashcroft Lucky Amrican Dream & Sire: Basse, Basic",
+    "birthDate": "5 February 2012",
+    "LitterName": "C-litter",
+    "img": "/data/img/C-litter.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "4",
+    "heritage": "Dam: Elsa, Lambington Grace Kelly & Sire: Gottfrid, USCH, SUCH, NUCH Toolbox Brainstorm",
+    "birthDate": "16 August 2016",
+    "LitterName": "D-litter",
+    "img": "/data/img/D-litter.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "5",
+    "heritage": "Dam: Elsa, Lambington Grace Kelly & Sire: Gottfrid, USCH, SUCH, NUCH Toolbox Brainstorm",
+    "birthDate": "14 April 2018",
+    "LitterName": "G-litter",
+    "img": "/data/img/G-litter.jpg",
+    "description": ""
+
+  }
+]

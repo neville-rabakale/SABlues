@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0",
+    "Title": "Viktoria och Elvira tar en liten tupplur, sommaren 2006",
+    "img": "/data/img/About/VandE1.jpg",
+    "description": "The first entry in the About Page"
+  },
+  {
+    "id": "1",
+    "Title": "Ronja blev Karolinas nyårspresent 2005/2006.",
+    "img": "/data/img/About/RandK1.jpg",
+    "description": "The middle entry in the About Page"
+  },
+  {
+    "id": "2",
+    "Title": "Lena får en kram av Calle, Sandy and Blue´s Silver Fox frånkennelns första kull",
+    "img": "/data/img/About/Lena1.jpg",
+    "description": "The closing entry in the About Page"
+  }
+]

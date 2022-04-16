@@ -1,0 +1,27 @@
+﻿@page
+@model SABlues.Pages.OurBedlingtons.IndexModel
+@{
+}
+
+<br /><br /><br /><br /><br /> 
+<div class="text-center">
+    <h4 class="display-8">Below are our beloved bedlingtons</h4>
+    <br />
+</div>
+
+<div class="card-columns">
+    @foreach (var puppies in Model.OurBedlingtons)
+    {
+
+        <div class=" card">
+            <div class="card-img" style="background-image: url('@puppies.Image')"></div>
+            <div class=" card-body">
+                <h5 class="card-title"> @puppies.Name</h5>
+                @if (puppies.Name == "AMBER")
+                {
+                    <a asp-page="Amber" class="stretched-link"></a>
+                }
+            </div>
+        </div>
+    }
+</div>

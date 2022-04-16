@@ -1,0 +1,69 @@
+[
+  {
+    "id": "0",
+    "group": "B-litter",
+    "birthDate": "4 December 2009",
+    "name": "Bria",
+    "birthName": "",
+    "img": "/data/img/Blitter/Bria.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "1",
+    "group": "B-litter",
+    "birthDate": "4 December 2009",
+    "name": "Chilli",
+    "birthName": "",
+    "img": "/data/img/Blitter/Chilli.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "2",
+    "group": "B-litter",
+    "birthDate": "4 December 2009",
+    "name": "Eyob",
+    "birthName": "",
+    "img": "/data/img/Blitter/Eyob.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "3",
+    "group": "B-litter",
+    "birthDate": "4 December 2009",
+    "name": "Ninja",
+    "birthName": "",
+    "img": "/data/img/Blitter/Ninja.jpg",
+    "description": ""
+  },
+  {
+    "id": "4",
+    "group": "B-litter",
+    "birthDate": "4 December 2009",
+    "name": "Novalie",
+    "birthName": "",
+    "img": "/data/img/Blitter/Novalie.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "5",
+    "group": "B-litter",
+    "birthDate": "4 December 2009",
+    "name": "Rosa",
+    "birthName": "",
+    "img": "/data/img/Blitter/Rosa.jpg",
+    "description": ""
+  },
+  {
+    "id": "6",
+    "group": "B-litter",
+    "birthDate": "4 December 2009",
+    "name": "Thea",
+    "birthName": "",
+    "img": "/data/img/Blitter/Thea.jpg",
+    "description": ""
+  }
+]

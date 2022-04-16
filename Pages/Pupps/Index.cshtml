@@ -1,0 +1,50 @@
+﻿@page
+@model SABlues.Pages.Pupps.IndexModel
+@{
+}
+
+<div class="text-center">
+    <br />
+    <h1 class="display-4">Welcome to SABlues</h1>
+    <br />
+    <h4 class="display-8">Below are our previous Litters</h4>
+    <br />
+</div>
+
+<div class="card-columns">
+    @foreach (var puppies in Model.Litters)
+    {
+
+        <div class=" card">
+            <div class="card-img" style="background-image: url('@puppies.Image')"></div>
+            <div class=" card-body">
+                <h3 class="card-title"> @puppies.LitterName</h3>
+                <h8 class="card-subtitle">@puppies.BirthDate</h8>
+                @if (puppies.LitterName == "C-litter")
+                {
+                    <a asp-page="Clitter" class="stretched-link"></a>
+                }
+                @if (puppies.LitterName == "S-litter")
+                {
+                    <a asp-page="Slitter" class="stretched-link"></a>
+                }
+                @if (puppies.LitterName == "ABBA-litter")
+                {
+                    <a asp-page="ABBAlitter" class="stretched-link"></a>
+                }
+                @if (puppies.LitterName == "D-litter")
+                {
+                    <a asp-page="Dlitter" class="stretched-link"></a>
+                }
+                @if (puppies.LitterName == "B-litter")
+                {
+                    <a asp-page="Blitter" class="stretched-link"></a>
+                }
+                @if (puppies.LitterName == "G-litter")
+                {
+                    <a asp-page="GLitter" class="stretched-link"></a>
+                }
+            </div>
+        </div>
+    }
+</div>

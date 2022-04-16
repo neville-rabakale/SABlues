@@ -1,0 +1,141 @@
+﻿@page
+@model SABlues.Pages.AboutUs.AboutUsModel
+@{
+}
+
+<meta charset="utf-8" />
+
+<div class="text-center text-black">
+    <br />
+    <h1 class="display-4">About SABlues's Kannel</h1>
+</div>
+
+<br />
+<br />
+
+<h5 class="text-center text-black">Därför blev bedlington terriern vår ras!</h5>
+<div class="text-center text-black">
+    <p class="display-12">
+        Lena Lidsell heter jag som står bakom kennelnamnet Sandy and Blue´s och jag har god hjälp
+        av mina två döttrar, Viktoria och Karolina.
+        Vi bor i ett stort radhus i ett lugnt villaområde i Västerås med både skog och fina
+        grönområden runt omkring.
+        I familjen finns också maken Rolf, som är en klippa när cirkusen Lidsell drar iväg
+        på utställningar land och rike runt.
+    </p>
+</div>
+
+<br />
+<br />
+    @*TODO: Redesign these card, see if there are better ways of displaying these images. Possibly single cards for each member*@
+<div class="card-group">
+    <meta charset="utf-8" />
+    @foreach (var entry in Model.aboutUs)
+    {
+        <div class="card">
+            <img src="@entry.Image" class="card-img-top" alt="Entry Image" height="300">
+            <div class=" card-body">
+                <p class="card-title" charset="utf-8">
+                    @entry.Title
+                </p>
+            </div>
+        </div>
+
+@*        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h4 class="featurette-heading">@entry.Title</h4>
+          </div>
+          <div class="col-md-3 order-md-1">
+            <img src="@entry.Image" class="img-thumbnail" alt="Entry Image" height="300">
+          </div>
+        </div>*@
+    }
+</div>
+
+
+<br />
+<br />
+<h6 class="text-center text-black"> Bedlington terriern är en allround hund</h6>
+<div class="text-center text-black">
+    <p class="display-12">
+        Själv har jag nästan alltid haft hund och är fostrad inom Svenska Brukshundklubben.
+        Min första hund var en långhårig normalstor tax, som tyvärr med åren blev mer än
+        normalstor. Roy som han hette fick jag när jag var tio år gammal. Vartefter både jag
+        och hundintresset växte, så blev schäfer min ras under många år. Jag har tränat och
+        tävlat både bruks och lydnad och även jobbat som instruktör och utbildat många
+        hundägare. Därmed har jag också under åren sett och följt många olika hundraser.
+        Schäfer är ingen nybörjarhund, så när vi skulle skaffa vår första hund i familjen så var
+        det jag som valde bedlington terriern som vår ras. Vi köpte vår första bedlington terrier
+        Rasmus, Isotop´s Groupleader i maj 2003. Varför det blev just en bedlington terrier
+        beror på att jag ville att mina flickor skulle få en medelstor allroundhund som tycker om
+        att tränas och aktiveras, både med agility som lydnad, men även har ett utvecklat spårsinne.
+        Rasmus har visat att han klarar allt det här.
+    </p>
+</div>
+
+<br />
+<h5 class="text-center text-black"> Utställning är kul </h5>
+<div class="text-center text-black">
+    <p class="display-12">
+        Redan från början hade vi klart för oss att vi ville ställa ut Rasmus och blev peppade och
+        coachade av Rasmus uppfödare, Malin Eriksson som hjälpte till med att klippa Rasmus.
+        Men det var Viktoria och Karolina som ställde ut Rasmus på alla utställningar och det har
+        gått riktigt, riktigt bra. Innan Rasmus fyllde två år hade han fått sex svenska cert och
+        ett norskt och strax efter tvåårsåldern blev han svensk och norsk utställningschampion
+        som följts av ett danskt och ett finskt utställningschampionat. Både Viktoria och Karolina
+        har utvecklats till riktigt duktiga handlers och hjälper idag till med att ställa ut ett flertal
+        andra terrieruppfödares hundar som carinterrier, australisk terrier, skottsk terrier,
+        bullterrier och irländsk terrier.
+    </p>
+</div>
+
+<br />
+<h5 class="text-center text-black"> Tre bedlington till </h5>
+<div class="text-center text-black">
+    <p class="display-12">
+        Viktoria och Karolina visade med Rasmus att de var mogna att ta ansvar för varsin egen hund.
+        Nu är vi upp över öronen engagerade i utställningar och i bedlington terrierns rasklubb
+        Skandinaviska Bedlingtonklubben. 2006 utökades vår hundflock med ytterligare
+        två bedlington terriers, tikarna Isotop´s Prada Collection och en amerikansk
+        import i Elvira, Ashcroft Lucky American Dream.
+        Tikarna kommer att bilda grunden för vår blivande uppfödning inom kenneln.
+        Vårt kennelnamn Sandy and Blue´s kommer av bedlington terrierns två färgställningar,
+        sand och blå.
+    </p>
+</div>
+
+<br />
+<h5 class="text-center text-black"> Är en frisk ras </h5>
+<div class="text-center text-black">
+    <p class="display-12">
+        Våra fyra hundar lever nära med oss i familjen i vårt hem.
+        För oss är det viktigt att hinna med att ge varje hund sin tid.
+        Förutom flera dagliga promenader aktiverar vi våra hundar mycket med lek
+        och träning. En bedlington älskar att springa och därför är det viktigt att våra
+        hundar är lydiga, så att de kan leka och springa lösa.
+        Bedlington terriern är en frisk hundras, men det finns en ärftlig leversjukdom
+        som kallas för koppartoxicos (CT). Men med hjälp av gjorda DNA-tester har
+        svenska bedlingtonuppfödare och rasklubben sedan många år tillbaka kontroll
+        över vilka hundar som är lämpliga att användas i avel för att garantera
+        friska hundar. Därför känns inte sjukdomen idag som något problem för rasen.
+    </p>
+</div>
+
+<br />
+<h5 class="text-center text-black"> Vår ambition </h5>
+<div class="text-center text-black">
+    <p class="display-12">
+        Vår första kull valpar fick vi våren 2008. Vår ambition som uppfödare av bedlington
+        terriers är att föda upp fysiskt friska och mentalt stadiga rastypiska hundar
+        som klarar av att vara den allroundhund som bedlington terriern är och alltid varit.
+        Vår uppfödning drivs i liten skala och i hemmiljö, så att vi hinner
+        med att ge varje liten valp en bra start i livet och också klarar av att
+        följa deras utveckling tillsammans med sina nya familjer.
+
+        Vårt motto när det gäller avel och uppfödning och som vi försöker jobba efter:
+        "When you look at a dog´s pedigree, it tells you what he/she OUGHT to be...
+        When you look at a dog in the ring, it tells you what he/she SEEMS to be....
+        When you look at a dog´s progeny, it tells you what he/she IS".
+        "Några tänkvärda ord av Pat Trotter".
+    </p>
+</div>

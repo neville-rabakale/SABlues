@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0",
+    "group": "ABBA-litter",
+    "birthDate": "23 December 2008",
+    "name": "Minja",
+    "birthName":  "",
+    "img": "/data/img/ABBAlitter/Minja.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "1",
+    "group": "ABBA-litter",
+    "birthDate": "23 December 2008",
+    "name": "Skrallan",
+    "birthName": "",
+    "img": "/data/img/ABBAlitter/Skrallan.jpg",
+    "description": ""
+
+  }
+]

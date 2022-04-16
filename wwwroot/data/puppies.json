@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0",
+    "group": "G-litter",
+    "birthDate": "14 April 2018",
+    "name": "Glorious Gloria",
+    "img": "/data/img/Glitter/Glorious Gloria.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "1",
+    "group": "G-litter",
+    "birthDate": "14 April 2018",
+    "name": "Golden Grace",
+    "img": "/data/img/Glitter/Golden Grace.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "2",
+    "group": "G-litter",
+    "birthDate": "14 April 2018",
+    "name": "Glorious Grey",
+    "img": "/data/img/Glitter/Glorious Grey.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "3",
+    "group": "G-litter",
+    "birthDate": "14 April 2018",
+    "name": "Great Ginny",
+    "img": "/data/img/Glitter/Great Ginny.jpg",
+    "description": ""
+
+  }
+]

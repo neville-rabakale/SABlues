@@ -1,0 +1,81 @@
+[
+  {
+    "id": "0",
+    "birthName": "SANDY AND BLUE´S CELTIC ROSE 'AMBER'",
+    "birthDate": "14 April 2018",
+    "name": "AMBER",
+    "img": "/data/img/OurBedlingtons/Amber.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "1",
+    "birthName": "LAMBINGTON GRACE KELLY, 'ELSA'",
+    "birthDate": "14 April 2018",
+    "name": "ELSA",
+    "img": "/data/img/OurBedlingtons/Elsa.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "2",
+    "birthName": "SE UCH SANDY AND BLUE´S DANCING QUEEN 'SKRÅLLAN'",
+    "birthDate": "14 April 2018",
+    "name": "SKRÅLLAN",
+    "img": "/data/img/OurBedlingtons/Skrallan.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "3",
+    "birthName": "SANDY AND BLUE´S BLACK PEARL,'PÄRLA'",
+    "birthDate": "14 April 2018",
+    "name": "PÄRLA",
+    "img": "/data/img/OurBedlingtons/Parla.jpg",
+    "description": ""
+  },
+  {
+    "id": "4",
+    "birthName": "NORD & FIN UCH ISOTOP´S GROUPLEADER, ‘RASMUS’",
+    "birthDate": "14 April 2018",
+    "name": "RASMUS",
+    "img": "/data/img/OurBedlingtons/Rasmus.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "5",
+    "birthName": "USCH, NORD UCH & C.I.B-CHAMPION ISOTOP´S PRADA COLLECTION, ‘RONJA'",
+    "birthDate": "14 April 2018",
+    "name": "RONJA",
+    "img": "/data/img/OurBedlingtons/Ronja.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "6",
+    "birthName": "CH SANDY AND BLUE´S SILVER FOX, ‘CALLE’",
+    "birthDate": "14 April 2018",
+    "name": "CALLE",
+    "img": "/data/img/OurBedlingtons/Calle.jpg",
+    "description": ""
+
+  },
+  {
+    "id": "7",
+    "birthName": "SE UCH DK UCH NORDISK VINNARE 2012 SANDY AND BLUE´S BRILLIANT STAR, ‘NINJA’ - R.I.P ",
+    "birthDate": "14 April 2018",
+    "name": "NINJA",
+    "img": "/data/img/OurBedlingtons/Ninja.jpg",
+    "description": ""
+  },
+  {
+    "id": "8",
+    "birthName": "AKC-POINTED, RALLY-TITLE RLDN, RLDF ASHCROFT LUCKY AMERICAN DREAM, ‘ELVIRA’ - R.I.P ",
+    "birthDate": "14 April 2018",
+    "name": "ELVIRA",
+    "img": "/data/img/OurBedlingtons/Elvira.jpg",
+    "description": ""
+  }
+
+]
