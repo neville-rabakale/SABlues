@@ -5,16 +5,16 @@
 
 <meta charset="utf-8" />
 
-<div class="text-center text-black">
-    <br />
-    <h1 class="display-4">About SABlues's Kannel</h1>
+<div class="text-center">
+    <br /><br />
+    <h1>Om oss på SABlues's Kannelen</h1>
 </div>
 
 <br />
 <br />
 
-<h5 class="text-center text-black">Därför blev bedlington terriern vår ras!</h5>
-<div class="text-center text-black">
+<h5 class="text-center">Därför blev bedlington terriern vår ras!</h5>
+<div class="text-center">
     <p class="display-12">
         Lena Lidsell heter jag som står bakom kennelnamnet Sandy and Blue´s och jag har god hjälp
         av mina två döttrar, Viktoria och Karolina.
@@ -27,36 +27,21 @@
 
 <br />
 <br />
-    @*TODO: Redesign these card, see if there are better ways of displaying these images. Possibly single cards for each member*@
-<div class="card-group">
-    <meta charset="utf-8" />
-    @foreach (var entry in Model.aboutUs)
-    {
-        <div class="card">
-            <img src="@entry.Image" class="card-img-top" alt="Entry Image" height="300">
-            <div class=" card-body">
-                <p class="card-title" charset="utf-8">
-                    @entry.Title
-                </p>
-            </div>
+    <div class="card">
+        <img src="/data/img/Index/Family.jpg" class="card-img-top" alt="Entry Image">
+        <div class=" card-body">
+            <h2 class="card-title text-center" charset="utf-8">
+                Familien Lidsell
+            </h2>
         </div>
+    </div>
 
-@*        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h4 class="featurette-heading">@entry.Title</h4>
-          </div>
-          <div class="col-md-3 order-md-1">
-            <img src="@entry.Image" class="img-thumbnail" alt="Entry Image" height="300">
-          </div>
-        </div>*@
-    }
-</div>
 
 
 <br />
 <br />
-<h6 class="text-center text-black"> Bedlington terriern är en allround hund</h6>
-<div class="text-center text-black">
+<h5 class="text-center"> Bedlington terriern är en allround hund</h5>
+<div class="text-center">
     <p class="display-12">
         Själv har jag nästan alltid haft hund och är fostrad inom Svenska Brukshundklubben.
         Min första hund var en långhårig normalstor tax, som tyvärr med åren blev mer än
@@ -74,8 +59,8 @@
 </div>
 
 <br />
-<h5 class="text-center text-black"> Utställning är kul </h5>
-<div class="text-center text-black">
+<h5 class="text-center"> Utställning är kul </h5>
+<div class="text-center">
     <p class="display-12">
         Redan från början hade vi klart för oss att vi ville ställa ut Rasmus och blev peppade och
         coachade av Rasmus uppfödare, Malin Eriksson som hjälpte till med att klippa Rasmus.
@@ -90,8 +75,8 @@
 </div>
 
 <br />
-<h5 class="text-center text-black"> Tre bedlington till </h5>
-<div class="text-center text-black">
+<h5 class="text-center"> Tre bedlington till </h5>
+<div class="text-center">
     <p class="display-12">
         Viktoria och Karolina visade med Rasmus att de var mogna att ta ansvar för varsin egen hund.
         Nu är vi upp över öronen engagerade i utställningar och i bedlington terrierns rasklubb
@@ -105,8 +90,8 @@
 </div>
 
 <br />
-<h5 class="text-center text-black"> Är en frisk ras </h5>
-<div class="text-center text-black">
+<h5 class="text-center"> Är en frisk ras </h5>
+<div class="text-center">
     <p class="display-12">
         Våra fyra hundar lever nära med oss i familjen i vårt hem.
         För oss är det viktigt att hinna med att ge varje hund sin tid.
@@ -122,8 +107,8 @@
 </div>
 
 <br />
-<h5 class="text-center text-black"> Vår ambition </h5>
-<div class="text-center text-black">
+<h5 class="text-center"> Vår ambition </h5>
+<div class="text-center">
     <p class="display-12">
         Vår första kull valpar fick vi våren 2008. Vår ambition som uppfödare av bedlington
         terriers är att föda upp fysiskt friska och mentalt stadiga rastypiska hundar
@@ -138,4 +123,11 @@
         When you look at a dog´s progeny, it tells you what he/she IS".
         "Några tänkvärda ord av Pat Trotter".
     </p>
+</div>
+
+<br />
+<br />
+@* replace with image of the family with the dogs
+*@<div>
+    <img src="/data/img/About/Lena1.jpg" class="card-img-top" alt="Entry Image" width:100%>
 </div>

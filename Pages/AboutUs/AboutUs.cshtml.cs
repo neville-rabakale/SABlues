@@ -17,7 +17,6 @@ namespace SABlues.Pages.AboutUs
         public JsonFileEntryServices _fileEntry;
 
         public IEnumerable<PageEntry> aboutUs { get; private set; }
-    //    public IEnumerable<PageEntry> StraboutUs { get; private set; }
 
 
         public AboutUsModel(
@@ -31,6 +30,7 @@ namespace SABlues.Pages.AboutUs
         public void OnGet()
         {
             aboutUs = _fileEntry.GetAboutUsEntry();
+            
         }
 
     }

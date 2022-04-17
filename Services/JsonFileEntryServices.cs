@@ -21,14 +21,14 @@ namespace SABlues.Services
         public IWebHostEnvironment WebHostEnviroment { get; }
 
 
-        //--------- Below are the file Names to be used to extract the json files ---------
+        //--------- Below is the file Names/path to be used to extract the json files ---------
 
         private string JsonFileName
         {
             get { return Path.Combine(WebHostEnviroment.WebRootPath, "data", "AboutUs.json"); }
         }
  
-        //The function to do the extracting using the file names above
+        //The function to do the extracting using the path
         public IEnumerable<PageEntry> GetAboutUsEntry()
         {
             using (var jsonFileReader = File.OpenText(JsonFileName))

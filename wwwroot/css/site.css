@@ -92,6 +92,7 @@ button.accept-policy {
 body {
     background: url('/css/Background1.jpg') no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Sticky footer styles
